@@ -1,0 +1,5 @@
+manufacturer,sku,kind,width_mm,height_mm,operation,handing,series,material,glazing,colour,notes
+Example Supply Co.,EX-AW-1209,window,1200,900,Awning,,Example Residential,Aluminium,Double,White,Fictional sample only
+Example Supply Co.,EX-SL-1812,window,1800,1200,Sliding,Right,Example Residential,Aluminium,Double,White,Fictional sample only
+Example Supply Co.,EX-SL-1760,window,1760,1200,Sliding,Right,Example Residential,Aluminium,Double,White,Fictional sample only
+Example Supply Co.,EX-D-3624,door,3600,2400,Stacker,,Example Residential,Aluminium,Double,White,Fictional sample only

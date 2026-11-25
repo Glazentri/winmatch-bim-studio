@@ -1,0 +1,8 @@
+Workup,Unit,QGen formula,Notes
+Window openings,ea,[wmWinCount],Map to your company's actual item code
+Door openings,ea,[wmDoorCount],Map to your company's actual item code
+Glazing nominal opening area,m2,[wmAreaM2],Not net glass area
+Reveals,lm,[wmRevealLM],Selected reveal edges and waste already applied
+Lintels,lm,[wmLintelLM],User-selected inclusion and extension only; not a design
+Head flashing,lm,[wmFlashLM],User-selected inclusion plus extension and waste
+Subsills,lm,[wmSubsillLM],Explicit supplied lengths only; blanks excluded

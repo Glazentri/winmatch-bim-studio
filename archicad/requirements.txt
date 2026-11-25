@@ -1,0 +1,2 @@
+# Graphisoft's official Python binding; version tracks Archicad releases.
+archicad

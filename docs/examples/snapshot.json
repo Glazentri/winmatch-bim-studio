@@ -1,0 +1,13 @@
+{
+  "schemaVersion":"1.0.0",
+  "source":"Demo",
+  "projectId":"example-project",
+  "projectName":"Example Residential Project",
+  "capturedAt":"2026-11-26T00:00:00Z",
+  "hostVersion":"",
+  "warnings": ["Fictional fixture; not a manufacturer product."],
+  "openings":[
+    {"id":"example-window-1","kind":"window","mark":"W01","widthMm":1200,"heightMm":900,"sillMm":900,"dimensionBasis":"Nominal model dimension","level":"Ground","room":"Kitchen","operation":"Awning","material":"Aluminium","glazing":"Double","handing":"","series":"","colour":"","notes":""},
+    {"id":"example-door-1","kind":"door","mark":"D01","widthMm":3600,"heightMm":2400,"sillMm":null,"dimensionBasis":"Nominal model dimension","level":"Ground","room":"Living","operation":"Stacker","material":"Aluminium","glazing":"Double","handing":"","series":"","colour":"","notes":""}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion":"1.0.0",
+  "source":"Demo",
+  "projectId":"wm-databuild-training",
+  "projectName":"WinMatch Databuild training project",
+  "quantitySettings":{"basis":"model","revealWastePct":0,"lintelBearingMm":150,"flashingExtensionMm":300,"flashingWastePct":20},
+  "openings":[
+    {"id":"w1","kind":"window","mark":"W01","widthMm":1200,"heightMm":900,"openingWidthMm":1240,"openingHeightMm":940,"actualWidthMm":1200,"actualHeightMm":900,"dimensionBasis":"Fictional nominal training dimension","level":"Ground","revealMode":"four","lintelIncluded":true,"flashingIncluded":true,"subsillLengthMm":1200,"subsillDepthMm":40},
+    {"id":"w2","kind":"window","mark":"W02","widthMm":1800,"heightMm":1200,"dimensionBasis":"Fictional nominal training dimension","level":"Ground","revealMode":"four","lintelIncluded":true,"flashingIncluded":true,"subsillLengthMm":1800},
+    {"id":"d1","kind":"door","mark":"D01","widthMm":2400,"heightMm":2100,"dimensionBasis":"Fictional nominal training dimension","level":"Ground","revealMode":"three","lintelIncluded":true,"flashingIncluded":true,"subsillLengthMm":2400}
+  ]
+}

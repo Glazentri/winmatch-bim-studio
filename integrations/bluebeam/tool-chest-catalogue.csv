@@ -1,0 +1,37 @@
+﻿Tool set,Subject,Code,Colour,PDF markup,Unit,Note
+Window count & identification,Sliding window,WIN-SL,#087e72,circle,ea,Create a native measurement/count tool in Revu if required.
+Window count & identification,Awning window,WIN-AW,#087e72,circle,ea,Create a native measurement/count tool in Revu if required.
+Window count & identification,Fixed window,WIN-FX,#087e72,circle,ea,Create a native measurement/count tool in Revu if required.
+Window count & identification,Casement window,WIN-CS,#087e72,circle,ea,Create a native measurement/count tool in Revu if required.
+Window count & identification,Louvre window,WIN-LV,#087e72,circle,ea,Create a native measurement/count tool in Revu if required.
+Window count & identification,Double-hung window,WIN-DH,#087e72,circle,ea,Create a native measurement/count tool in Revu if required.
+Window count & identification,Tilt-turn window,WIN-TT,#087e72,circle,ea,Create a native measurement/count tool in Revu if required.
+Window count & identification,Raked window,WIN-RK,#087e72,circle,ea,Create a native measurement/count tool in Revu if required.
+Window count & identification,Arch window,WIN-AR,#087e72,circle,ea,Create a native measurement/count tool in Revu if required.
+Window count & identification,Circular window,WIN-CI,#087e72,circle,ea,Create a native measurement/count tool in Revu if required.
+Window count & identification,Gas-strut window,WIN-GS,#087e72,circle,ea,Create a native measurement/count tool in Revu if required.
+Window count & identification,Window review,WIN-QA,#b16c20,square,ea,Create a native measurement/count tool in Revu if required.
+Door count & identification,Hinged door,DR-HG,#355b95,circle,ea,Create a native measurement/count tool in Revu if required.
+Door count & identification,Sliding door,DR-SL,#355b95,circle,ea,Create a native measurement/count tool in Revu if required.
+Door count & identification,Stacker door,DR-ST,#355b95,circle,ea,Create a native measurement/count tool in Revu if required.
+Door count & identification,Bifold door,DR-BF,#355b95,circle,ea,Create a native measurement/count tool in Revu if required.
+Door count & identification,Pocket door,DR-PK,#355b95,circle,ea,Create a native measurement/count tool in Revu if required.
+Door count & identification,Corner door,DR-CR,#355b95,circle,ea,Create a native measurement/count tool in Revu if required.
+Door count & identification,Pivot door,DR-PV,#355b95,circle,ea,Create a native measurement/count tool in Revu if required.
+Door count & identification,Double door,DR-DB,#355b95,circle,ea,Create a native measurement/count tool in Revu if required.
+Door count & identification,Bi-parting door,DR-BP,#355b95,circle,ea,Create a native measurement/count tool in Revu if required.
+Door count & identification,Security door,DR-SC,#355b95,circle,ea,Create a native measurement/count tool in Revu if required.
+Door count & identification,Door threshold,DR-TH,#b16c20,square,ea,Create a native measurement/count tool in Revu if required.
+Door count & identification,Door review,DR-QA,#b16c20,square,ea,Create a native measurement/count tool in Revu if required.
+Quantities & site checks,Opening area,QTY-AR,#087e72,square,m²,Create a native measurement/count tool in Revu if required.
+Quantities & site checks,Reveal length,QTY-RV,#087e72,line,lm,Create a native measurement/count tool in Revu if required.
+Quantities & site checks,Lintel over,QTY-LN,#b16c20,line,lm,Create a native measurement/count tool in Revu if required.
+Quantities & site checks,Head flashing,QTY-FL,#355b95,line,lm,Create a native measurement/count tool in Revu if required.
+Quantities & site checks,Subsill,QTY-SS,#7561a2,line,lm,Create a native measurement/count tool in Revu if required.
+Quantities & site checks,Sill / threshold,QTY-TH,#7561a2,line,lm,Create a native measurement/count tool in Revu if required.
+Quantities & site checks,Frame perimeter,QTY-PR,#087e72,square,lm,Create a native measurement/count tool in Revu if required.
+Quantities & site checks,Structural opening,QTY-SO,#b16c20,square,mm,Create a native measurement/count tool in Revu if required.
+Quantities & site checks,Actual unit size,QTY-AU,#355b95,square,mm,Create a native measurement/count tool in Revu if required.
+Quantities & site checks,Curtain wall module,QTY-CW,#7561a2,square,ea,Create a native measurement/count tool in Revu if required.
+Quantities & site checks,Confirm handing,QA-HD,#b16c20,circle,check,Create a native measurement/count tool in Revu if required.
+Quantities & site checks,Confirm dimensions,QA-DM,#b16c20,circle,check,Create a native measurement/count tool in Revu if required.

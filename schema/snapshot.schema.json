@@ -1,0 +1,246 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WinMatch BIM snapshot",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "source",
+    "projectId",
+    "openings"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0.0"
+    },
+    "source": {
+      "type": "string",
+      "minLength": 1
+    },
+    "projectId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "projectName": {
+      "type": "string"
+    },
+    "capturedAt": {
+      "type": "string"
+    },
+    "hostVersion": {
+      "type": "string"
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "openings": {
+      "type": "array",
+      "maxItems": 50000,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "kind"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "hostRef": {
+            "type": "string"
+          },
+          "mark": {
+            "type": "string"
+          },
+          "level": {
+            "type": "string"
+          },
+          "room": {
+            "type": "string"
+          },
+          "typeName": {
+            "type": "string"
+          },
+          "operation": {
+            "type": "string"
+          },
+          "handing": {
+            "type": "string"
+          },
+          "material": {
+            "type": "string"
+          },
+          "glazing": {
+            "type": "string"
+          },
+          "series": {
+            "type": "string"
+          },
+          "colour": {
+            "type": "string"
+          },
+          "hardware": {
+            "type": "string"
+          },
+          "manufacturer": {
+            "type": "string"
+          },
+          "sku": {
+            "type": "string"
+          },
+          "orientation": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          },
+          "dimensionBasis": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "window",
+              "door"
+            ]
+          },
+          "widthMm": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "exclusiveMinimum": 0
+          },
+          "heightMm": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "exclusiveMinimum": 0
+          },
+          "openingWidthMm": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "exclusiveMinimum": 0
+          },
+          "openingHeightMm": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "exclusiveMinimum": 0
+          },
+          "actualWidthMm": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "exclusiveMinimum": 0
+          },
+          "actualHeightMm": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "exclusiveMinimum": 0
+          },
+          "sillMm": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "subsillDepthMm": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "subsillHeightMm": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "subsillLengthMm": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "revealDepthMm": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "supplyRate": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "installRate": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "revealMode": {
+            "enum": [
+              "auto",
+              "none",
+              "head",
+              "jambs",
+              "three",
+              "four"
+            ]
+          },
+          "lintelIncluded": {
+            "type": "boolean"
+          },
+          "flashingIncluded": {
+            "type": "boolean"
+          },
+          "priceMode": {
+            "enum": [
+              "each",
+              "area"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "quantitySettings": {
+      "type": "object"
+    },
+    "priceSettings": {
+      "type": "object"
+    },
+    "siteContext": {
+      "type": "object"
+    },
+    "curtainWalls": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "curtainDesign": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,17 @@
+{
+  "units": "mm",
+  "columns": [
+    {"header":"Opening Mark","field":"mark"},
+    {"header":"Category","field":"kind"},
+    {"header":"Nominal Width","field":"widthMm"},
+    {"header":"Nominal Height","field":"heightMm"},
+    {"header":"Quantity","field":"quantity"},
+    {"header":"Operation","field":"operation"},
+    {"header":"Handing","field":"handing"},
+    {"header":"Frame","field":"material"},
+    {"header":"Glazing","field":"glazing"},
+    {"header":"Product Code","field":"sku"},
+    {"header":"Dimension Basis","field":"dimensionBasis"},
+    {"header":"Notes","field":"notes"}
+  ]
+}

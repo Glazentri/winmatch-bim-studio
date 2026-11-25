@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Databuild><Bill><BillRecord><BLoad>1</BLoad><CostCentre>900</CostCentre><ItemCode>0001</ItemCode><JobNo>1</JobNo><Price>0</Price><PriceLevel>1</PriceLevel><PriceLock>False</PriceLock><QGen>2.00^^[wmWinCount] [LF] 1.00^^[wmDoorCount] [LF] 8.28^^[wmAreaM2] [LF] 16.80^^[wmRevealLM] [LF] 6.30^^[wmLintelLM] [LF] 8.64^^[wmFlashLM] [LF] 5.40^^[wmSubsillLM]</QGen><Quantity>1</Quantity><UnitPrice>0</UnitPrice></BillRecord></Bill></Databuild>

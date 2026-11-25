@@ -1,0 +1,19 @@
+{
+  "projectId": "replace-with-a-unique-project-id",
+  "projectName": "My project",
+  "dimensionBasis": "Unspecified",
+  "window": {
+    "mark": "Built-in: General_ElementID",
+    "widthMm": "",
+    "heightMm": "",
+    "level": "",
+    "typeName": ""
+  },
+  "door": {
+    "mark": "Built-in: General_ElementID",
+    "widthMm": "",
+    "heightMm": "",
+    "level": "",
+    "typeName": ""
+  }
+}

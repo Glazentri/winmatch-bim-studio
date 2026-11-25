@@ -1,0 +1,2 @@
+# IfcOpenShell is separately licensed; not bundled in this repository.
+ifcopenshell

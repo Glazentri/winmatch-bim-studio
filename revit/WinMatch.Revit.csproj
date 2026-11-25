@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>WinMatch.Revit</AssemblyName>
+    <RevitVersion Condition="'$(RevitVersion)'==''">2026</RevitVersion>
+    <RevitPath Condition="'$(RevitPath)'==''">C:\Program Files\Autodesk\Revit $(RevitVersion)</RevitPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RevitAPI"><HintPath>$(RevitPath)\RevitAPI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="RevitAPIUI"><HintPath>$(RevitPath)\RevitAPIUI.dll</HintPath><Private>false</Private></Reference>
+    <None Include="..\dist\WinMatch-BIM-Studio.html" Link="WinMatch-BIM-Studio.html" CopyToOutputDirectory="PreserveNewest"/>
+  </ItemGroup>
+  <Target Name="CheckRevit" BeforeTargets="ResolveAssemblyReferences">
+    <Error Condition="!Exists('$(RevitPath)\RevitAPI.dll')" Text="Revit API not found. Set RevitPath to the installed Revit folder."/>
+    <Error Condition="!Exists('..\dist\WinMatch-BIM-Studio.html')" Text="Build Studio first: python scripts/build_studio.py"/>
+  </Target>
+</Project>
